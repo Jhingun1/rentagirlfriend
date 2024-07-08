@@ -7,7 +7,7 @@ import React from 'react';
 * @see https://v0.dev/t/QwLraMAh82E
 * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
 */
-export function Landing() {
+export default function Landing() {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <header className="flex flex-col items-start bg-gray-800 p-4 md:flex-row md:items-center md:justify-between">
