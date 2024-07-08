@@ -1,9 +1,9 @@
 import React from "react";
-import { Landing as LandingComponent } from "@/components/Landing";
+import { Landing } from "@/components/Landing";
 
 export default function Home() {
   return (
-    <LandingComponent>
-    </LandingComponent>
+    <Landing>
+    </Landing>
   );
 }
