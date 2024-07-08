@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { JSX, SVGProps } from "react"
 
 /**
@@ -87,7 +88,7 @@ export function Landing() {
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {[...Array(6)].map((_, index) => (
               <div key={index} className="bg-gray-800 p-4">
-                <image href="/placeholder.svg" aria-label="Escort" className="w-full h-48 object-cover mb-2" />
+                <img src="/placeholder.svg" alt="Escort" className="w-full h-48 object-cover mb-2" />
                 <div className="text-center">
                   <h3 className="text-lg font-bold">Escort Name</h3>
                   <p>From $250</p>
@@ -102,7 +103,7 @@ export function Landing() {
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {[...Array(18)].map((_, index) => (
               <div key={index} className="bg-gray-800 p-4">
-                <image href="/placeholder.svg" aria-label="Escort" className="w-full h-48 object-cover mb-2" />
+                <img src="/placeholder.svg" alt="Escort" className="w-full h-48 object-cover mb-2" />
                 <div className="text-center">
                   <h3 className="text-lg font-bold">Escort Name</h3>
                   <p>From $250</p>
